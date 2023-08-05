@@ -1,0 +1,145 @@
+@font-face {
+    font-family: SF Compact Rounded;
+    src: url(./fonts/FontsFree-Net-SF-Compact-Rounded-Regular.ttf);
+}
+*{
+   
+}
+
+body{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #F6F4EB;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    width: 170.763px;
+    padding: 2.102px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.102px;
+    margin: 0 auto;
+    margin: 0 auto;
+    
+}
+
+.logo img{
+    height: 213px;
+    width: 167px;
+    
+}
+
+.frame28{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    width: 328px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.frame28 h1{
+    display: flex;
+    justify-content: center;
+    color:#182A49;
+    text-align: center;
+    font-family: SF Compact Rounded;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.frame76{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    width: 328px;
+    justify-content: center;   
+}
+.frame76 h5{
+    color: var(--preto-azul, #182A49);
+    text-align: center;
+    font-family: SF Compact Rounded;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 375px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    margin: 0 auto;
+    width: 325px;   
+    justify-content: center; 
+}
+.buttonlogin{
+    display: flex;
+    padding: 7px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    margin-bottom: 24px; 
+    width: 293px;   
+    
+}
+.buttonlogin button{
+    display: flex;
+    padding: 11px 42px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    margin: 7px 16px 7px 16px;
+    border-radius: 12px;
+    border: 1px solid #CDCDCD;
+    background: #182A49;
+    box-shadow: 4px 2px 9px 0px rgba(67, 65, 65, 0.25);  
+    color: #FFF;
+    font-family: SF Compact Rounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 293px;      
+}
+a{
+    text-decoration: none;
+}
+.siginbutton{
+    display: flex;
+    padding: 7px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    width: 293px;
+
+}
+.siginbutton button{
+    display: flex;
+    padding: 11px 42px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    margin: 7px 16px 7px 16px;
+    border-radius: 12px;
+    border: 1px solid #CDCDCD;
+    box-shadow: 4px 2px 9px 0px rgba(67, 65, 65, 0.25);
+    width: 293px;
+}

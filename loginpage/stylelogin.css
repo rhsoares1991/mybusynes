@@ -1,0 +1,282 @@
+
+@font-face {
+    font-family: SF Compact Rounded;
+    src: url(./fonts/FontsFree-Net-SF-Compact-Rounded-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;  
+    
+}
+
+body{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #F6F4EB;
+    padding: 16px 32px;
+    /* width: 357px; */
+}
+
+.logo{
+    display: flex;
+    width: 170.763px;
+    padding: 2.102px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.102px;
+    margin: 0 auto;
+    
+}
+
+.logo img{
+    height: 213px;
+    width: 167px;
+    
+}
+
+.frame28{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    width: 328px;
+    justify-content: center;
+}
+
+.frame28 h1{
+    display: flex;
+    justify-content: center;
+    color:#182A49;
+    text-align: center;
+    font-family: SF Compact Rounded;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.frame76{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    width: 328px;
+    justify-content: center;   
+}
+.frame76 h5{
+    color: var(--preto-azul, #182A49);
+    text-align: center;
+    font-family: SF Compact Rounded;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 375px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+    margin-bottom: 25px;
+    width: 325px;    
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    margin-bottom: 0px;
+    width: 325px;   
+}
+.bars{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;   
+}
+#email{
+    color: var #182A49;
+    font-family: SF Compact Rounded;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 328px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--cinza, #E0DCCC);
+    display: flex;
+    flex-direction: center;
+    
+}
+label{
+    color: var(--preto-azul, #182A49);
+    font-family: SF Compact Rounded;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    margin-top: 30px;
+
+}
+#password{
+        color: var #182A49;
+        font-family: SF Compact Rounded;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: 328px;
+        height: 39px;
+        flex-shrink: 0;
+        border-radius: 12px;
+        background: var(--cinza, #E0DCCC);
+        display: flex;
+        flex-direction: center;
+        margin-bottom: 5px;
+        
+}
+
+.rememberme{
+    display: flex;
+    width: 325px;
+    align-items: baseline;
+    gap: 20px;
+    flex-direction: row;
+    margin-top: -35px;
+    align-content: space-between;
+}
+
+.rememberme a{
+    padding-left: 26%;
+}
+.label1{
+    color: var(--preto-azul, #182A49);
+    font-family: SF Compact Rounded;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: -15px;
+    margin-top: ;
+}
+
+a{
+    color: var(--preto-azul, #182A49);
+    text-align: right;
+    font-family: SF Compact Rounded;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 12px;
+}
+.containerbutton{
+    display: flex;
+    padding: 7px 16px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    width: 293px;
+    
+
+}
+button{
+    display: flex;
+    padding: 11px 42px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 7px 16px;
+    border-radius: 12px;
+    border: 1px solid var(--cinza, #E0DCCC);
+    background: var(--preto-azul, #182A49);
+    box-shadow: 4px 2px 9px 0px rgba(67, 65, 65, 0.25);
+    color: white;
+    width: 50px;
+    margin: 0 auto;
+    height: 50px;
+    cursor: pointer;
+    
+}
+.facebokbutton{
+
+}
+
+
+.redes{
+    display: flex;
+    align-items: baseline;
+    flex: 1 0 0;
+    border-radius: 10px;
+    background: var(--cinza, #E0DCCC);
+    width: 140px;
+    margin: -1px;
+    height: 30px;
+    color: #182A49;
+}
+p{
+    color: var(--preto-azul, #182A49);
+    text-align: right;
+    font-family: SF Compact Rounded;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+i{
+    width: 20px;
+    height: 20px;
+    color: #182A49;
+}
+.loginwith{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;    
+    align-self: center;
+    align-content: space-between;
+    
+}
+
+.checkremember{
+    -webkit-appearance: none;
+	background-color: #E0DCCC;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 999px;
+	display: inline-block;
+	position: relative;
+    border-radius: 999px;
+    height: 16px;
+    width: 16px; 
+      
+}
+
+.checkremember:active, .checkremember:checked:active{
+        box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+    
+}
+
+.checkremember:checked::after{
+    content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #99a1a7;
+}
+
